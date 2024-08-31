@@ -39,4 +39,5 @@ What do we expect from you:
 - You can start the application using maven: `./mvnw`. It will expose a route POST accessible at `http://localhost:8080/shopping
 - You can launch the tests with `./mvnw test`
 
-**Good luck!**
+## Refactoring:
+Commit 1: organise the structure of the data model and replace the string type with an enum
