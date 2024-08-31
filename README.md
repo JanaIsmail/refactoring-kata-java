@@ -41,3 +41,5 @@ What do we expect from you:
 
 ## Refactoring:
 Commit 1: organise the structure of the data model and replace the string type with an enum
+Commit 2: add unit tests before changing the algorithm
+Commit 3: modify the enums to contain the data for each type of customer and item and simplify the controller

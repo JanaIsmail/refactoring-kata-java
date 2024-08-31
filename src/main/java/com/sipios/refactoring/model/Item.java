@@ -11,4 +11,8 @@ public class Item {
 
     private ItemType type;
     private int nb;
+
+    public double getTotalPrice(boolean isDiscountPeriod) {
+        return isDiscountPeriod ? nb * type.getPrice() * type.getSeasonDiscount() : nb * type.getPrice();
+    }
 }
